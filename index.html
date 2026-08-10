@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Pawar | Full Stack & Software Engineer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-float {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-[#0a0a0c] text-slate-100 font-sans selection:bg-emerald-500 selection:text-black min-h-screen overflow-x-hidden">
+
+    <!-- Background Orbs -->
+    <div class="fixed top-[-10%] left-[15%] w-[400px] h-[400px] bg-emerald-500/10 rounded-full blur-[120px] pointer-events-none"></div>
+    <div class="fixed bottom-[-10%] right-[15%] w-[400px] h-[400px] bg-blue-600/10 rounded-full blur-[120px] pointer-events-none"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-50 backdrop-blur-xl bg-[#0a0a0c]/80 border-b border-slate-800/60 px-6 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="#about" class="text-2xl font-black tracking-tight group">
+                Jay<span class="text-emerald-400 group-hover:text-blue-400 transition-colors duration-300">.</span>
+            </a>
+            
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-emerald-400 transition-colors">About</a>
+                <a href="#skills" class="hover:text-emerald-400 transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-emerald-400 transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-emerald-400 transition-colors">Contact</a>
+            </div>
+
+            <a href="#contact" class="hidden md:inline-flex items-center justify-center px-5 py-2.5 text-xs font-bold text-black bg-emerald-400 hover:bg-emerald-300 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg shadow-emerald-500/20">
+                Let's Talk
+            </a>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto px-6 py-12 space-y-32 relative z-10">
+        
+        <!-- Hero Section -->
+        <section id="about" class="flex flex-col-reverse md:flex-row items-center justify-between gap-12 pt-6">
+            <div class="flex-1 space-y-6 text-center md:text-left">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold tracking-wide">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    AVAILABLE FOR FREELANCE & ROLES
+                </div>
+                
+                <!-- UPDATED HEADING WITH FULL STACK & SOFTWARE DEV -->
+                <h1 class="text-4xl sm:text-6xl font-black tracking-tight leading-tight">
+                    I'm Jay Pawar. <br />
+                    <span class="bg-gradient-to-r from-emerald-400 via-teal-300 to-blue-500 bg-clip-text text-transparent">
+                        Full Stack & Software Developer.
+                    </span>
+                </h1>
+
+                <p class="text-slate-400 text-base sm:text-lg leading-relaxed max-w-xl">
+                    Specializing in building modern, scalable web applications with React.js, Node.js, and C/C++ core systems.
+                </p>
+
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start pt-2">
+                    <a href="#projects" class="px-6 py-3 rounded-xl bg-emerald-400 text-black font-bold hover:bg-emerald-300 transition-all duration-300 shadow-xl shadow-emerald-500/15 transform hover:-translate-y-0.5">
+                        View Projects 🚀
+                    </a>
+                    <a href="#contact" class="px-6 py-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 font-semibold hover:border-slate-700 hover:bg-slate-800/80 transition-all duration-300">
+                        Hire Me
+                    </a>
+                </div>
+            </div>
+
+            <!-- Profile Photo Container -->
+            <div class="relative group">
+                <div class="absolute -inset-2 bg-gradient-to-r from-emerald-500 via-teal-500 to-blue-600 rounded-3xl blur-xl opacity-30 group-hover:opacity-75 transition duration-700"></div>
+                
+                <div class="relative w-64 h-64 sm:w-80 sm:h-80 rounded-2xl overflow-hidden border-2 border-slate-700/80 bg-slate-900 shadow-2xl transition-all duration-500 group-hover:scale-105 group-hover:-rotate-1 group-hover:border-emerald-400/60">
+                    <img src="profile.jpeg" alt="Jay Pawar" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0c]/60 via-transparent to-transparent opacity-80 group-hover:opacity-30 transition duration-500"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Expertise Section -->
+        <section id="skills" class="space-y-8">
+            <div class="space-y-2">
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-100">Technical Expertise</h2>
+                <p class="text-slate-400 text-sm">Technologies and tools I use to build software solutions.</p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 hover:border-emerald-500/50 hover:bg-slate-900/80 transition-all duration-300 transform hover:-translate-y-1 group">
+                    <div class="text-[11px] text-slate-500 font-mono uppercase tracking-wider mb-1">Frontend</div>
+                    <div class="font-bold text-slate-200 group-hover:text-emerald-400 transition-colors">React.js</div>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 hover:border-emerald-500/50 hover:bg-slate-900/80 transition-all duration-300 transform hover:-translate-y-1 group">
+                    <div class="text-[11px] text-slate-500 font-mono uppercase tracking-wider mb-1">Backend</div>
+                    <div class="font-bold text-slate-200 group-hover:text-emerald-400 transition-colors">Node.js</div>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 hover:border-emerald-500/50 hover:bg-slate-900/80 transition-all duration-300 transform hover:-translate-y-1 group">
+                    <div class="text-[11px] text-slate-500 font-mono uppercase tracking-wider mb-1">Language</div>
+                    <div class="font-bold text-slate-200 group-hover:text-emerald-400 transition-colors">JavaScript</div>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 hover:border-emerald-500/50 hover:bg-slate-900/80 transition-all duration-300 transform hover:-translate-y-1 group">
+                    <div class="text-[11px] text-slate-500 font-mono uppercase tracking-wider mb-1">Database & Auth</div>
+                    <div class="font-bold text-slate-200 group-hover:text-emerald-400 transition-colors">Firebase</div>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 hover:border-emerald-500/50 hover:bg-slate-900/80 transition-all duration-300 transform hover:-translate-y-1 group">
+                    <div class="text-[11px] text-slate-500 font-mono uppercase tracking-wider mb-1">Core Logic</div>
+                    <div class="font-bold text-slate-200 group-hover:text-emerald-400 transition-colors">C / C++</div>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 hover:border-emerald-500/50 hover:bg-slate-900/80 transition-all duration-300 transform hover:-translate-y-1 group">
+                    <div class="text-[11px] text-slate-500 font-mono uppercase tracking-wider mb-1">UI & Styling</div>
+                    <div class="font-bold text-slate-200 group-hover:text-emerald-400 transition-colors">Tailwind CSS</div>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 hover:border-emerald-500/50 hover:bg-slate-900/80 transition-all duration-300 transform hover:-translate-y-1 group">
+                    <div class="text-[11px] text-slate-500 font-mono uppercase tracking-wider mb-1">Deployment</div>
+                    <div class="font-bold text-slate-200 group-hover:text-emerald-400 transition-colors">Vercel</div>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 hover:border-emerald-500/50 hover:bg-slate-900/80 transition-all duration-300 transform hover:-translate-y-1 group">
+                    <div class="text-[11px] text-slate-500 font-mono uppercase tracking-wider mb-1">Version Control</div>
+                    <div class="font-bold text-slate-200 group-hover:text-emerald-400 transition-colors">Git & GitHub</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="space-y-8">
+            <div class="space-y-2">
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-100">Featured Projects</h2>
+                <p class="text-slate-400 text-sm">Selected real-world applications and GitHub repositories.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Project 1: Notes Savior -->
+                <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-slate-700 transition-all duration-300 flex flex-col justify-between space-y-6 group hover:shadow-2xl hover:shadow-emerald-500/5">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-mono px-3 py-1 rounded-md bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                                Web Application
+                            </span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-100 group-hover:text-emerald-400 transition-colors">
+                            NOTES SAVIOR
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            A smart student notes web application featuring Firebase Authentication, dynamic drawer navigation, and real-time cloud data storage.
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-800/80">
+                        <a href="https://student-notes-save-web.vercel.app/" target="_blank" rel="noreferrer" class="text-sm font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1.5 transition-colors">
+                            Live Application ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Smart Challan Engine -->
+                <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-slate-700 transition-all duration-300 flex flex-col justify-between space-y-6 group hover:shadow-2xl hover:shadow-emerald-500/5">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-mono px-3 py-1 rounded-md bg-blue-500/10 text-blue-400 border border-blue-500/20">
+                                System / Automation
+                            </span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-100 group-hover:text-emerald-400 transition-colors">
+                            SMART CHALLAN ENGINE
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            An automated traffic rules and penalty challan management system for efficient record processing and tracking.
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-800/80">
+                        <a href="https://github.com/jay-soft-dev/SMART-CHALLAN-ENGINE-" target="_blank" rel="noreferrer" class="text-sm font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1.5 transition-colors">
+                            View Source Code ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Metro Route Checker -->
+                <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-slate-700 transition-all duration-300 flex flex-col justify-between space-y-6 group hover:shadow-2xl hover:shadow-emerald-500/5">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-mono px-3 py-1 rounded-md bg-teal-500/10 text-teal-400 border border-teal-500/20">
+                                Navigation Tool
+                            </span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-100 group-hover:text-emerald-400 transition-colors">
+                            METRO ROUTE CHECKER
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            A transit utility that helps commuters find optimal metro paths, calculate routes, and check station connectivity efficiently.
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-800/80">
+                        <a href="https://github.com/jay-soft-dev/METRO-ROUTE-CHECKER" target="_blank" rel="noreferrer" class="text-sm font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1.5 transition-colors">
+                            View Source Code ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: ATM System -->
+                <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-slate-700 transition-all duration-300 flex flex-col justify-between space-y-6 group hover:shadow-2xl hover:shadow-emerald-500/5">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-mono px-3 py-1 rounded-md bg-purple-500/10 text-purple-400 border border-purple-500/20">
+                                Console Application
+                            </span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-100 group-hover:text-emerald-400 transition-colors">
+                            ATM SIMULATOR
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            A core banking simulation application handling PIN verification, cash withdrawals, balance inquiries, and account updates.
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-800/80">
+                        <a href="https://github.com/jay-soft-dev/ATM" target="_blank" rel="noreferrer" class="text-sm font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1.5 transition-colors">
+                            View Source Code ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Freelance Profiles Section -->
+        <section id="contact" class="relative overflow-hidden p-8 sm:p-12 rounded-3xl bg-gradient-to-b from-slate-900/90 to-[#0a0a0c] border border-slate-800 text-center space-y-8">
+            <div class="absolute inset-0 bg-emerald-500/5 blur-3xl pointer-events-none"></div>
+            
+            <div class="space-y-3">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-100">Let's Connect</h2>
+                <p class="text-slate-400 max-w-lg mx-auto text-sm leading-relaxed">
+                    Looking for a developer for your next project or want to hire me on Freelancer? Feel free to reach out!
+                </p>
+            </div>
+
+            <!-- Email and Phone Buttons -->
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="mailto:jaypawar8399@gmail.com" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-emerald-400 text-black font-bold hover:bg-emerald-300 transition-all duration-300 shadow-lg shadow-emerald-500/20">
+                    📧 jaypawar8399@gmail.com
+                </a>
+                <a href="tel:8317289128" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-200 font-semibold hover:bg-slate-800 hover:border-slate-600 transition-all duration-300">
+                    📞 +91 8317289128
+                </a>
+            </div>
+
+            <!-- Freelancer Profiles Badges -->
+            <div class="pt-6 border-t border-slate-800/80 space-y-3">
+                <p class="text-xs font-mono uppercase tracking-widest text-slate-400">Hire Me On Freelancer</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="https://www.freelancer.com/u/JAYP8317?sb=t" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-cyan-950/40 border border-cyan-500/30 text-cyan-300 hover:bg-cyan-900/50 hover:border-cyan-400 transition-all duration-300 text-xs font-bold">
+                        <span>💼 Freelancer Profile (@JAYP8317)</span> ↗
+                    </a>
+                    <a href="https://www.freelancer.com/u/jaypawar83?sb=t" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-cyan-950/40 border border-cyan-500/30 text-cyan-300 hover:bg-cyan-900/50 hover:border-cyan-400 transition-all duration-300 text-xs font-bold">
+                        <span>💼 Freelancer Profile (@jaypawar83)</span> ↗
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-slate-800/60 py-8 text-center text-slate-500 text-xs">
+        <p>&copy; 2026 Jay Pawar. Built with HTML & Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
