@@ -10,6 +10,11 @@
 
 <br/><br/>
 
+<!-- 🌐 Portfolio Website Button -->
+[![Portfolio](https://img.shields.io/badge/🌐_Visit_My_Portfolio-007ACC?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-website-eta-seven-24.vercel.app/)
+
+<br/><br/>
+
 ![](https://komarev.com/ghpvc/?username=jay-soft-dev&color=blueviolet&style=flat-square)
 ![](https://img.shields.io/github/followers/jay-soft-dev?label=Followers&style=flat-square&color=blue)
 ![](https://img.shields.io/github/stars/jay-soft-dev?style=flat-square&color=e3b341)
@@ -18,6 +23,7 @@
 
 ### 🌐 Connect with Me
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-007ACC?style=for-the-badge&logo=firefox&logoColor=white)](https://portfolio-website-eta-seven-24.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jay-pawar99)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jaypawar8399@gmail.com)
 [![Freelancer](https://img.shields.io/badge/Freelancer-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white)](https://www.freelancer.com/u/JAYP8317)
@@ -52,17 +58,17 @@
 * 🔐 **[OTP Authentication System](https://github.com/jay-soft-dev/OTP-AUTH-SYSTEM-NUM-EMAIL)**  
   * **Description:** A secure full-stack authentication engine supporting real-time OTP delivery via SMS (Fast2SMS) and Email (Nodemailer) with JWT verification.  
   * **Tech Stack:** `Node.js` `Express.js` `JWT` `Axios` `Nodemailer`  
-  * **Links:** [![Go Live Demo](https://img.shields.io/badge/🚀_Live_Demo-007ACC?style=flat-square&logo=vercel&logoColor=white)](https://your-demo-url.com) [![Source Code](https://img.shields.io/badge/💻_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jay-soft-dev/OTP-AUTH-SYSTEM-NUM-EMAIL)
+  * **Links:** [![Go Live Demo](https://img.shields.io/badge/🚀_Live_Demo-007ACC?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-website-eta-seven-24.vercel.app/) [![Source Code](https://img.shields.io/badge/💻_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jay-soft-dev/OTP-AUTH-SYSTEM-NUM-EMAIL)
 
 * 📌 **[Student Notes Save Web](https://github.com/jay-soft-dev/STUDENT-NOTES-SAVE-WEB-)**  
   * **Description:** A web application designed for students to organize, store, and manage study notes efficiently.  
   * **Tech Stack:** `HTML` `CSS` `JavaScript`  
-  * **Links:** [![Go Live Demo](https://img.shields.io/badge/🚀_Live_Demo-007ACC?style=flat-square&logo=netlify&logoColor=white)](https://your-demo-url.com) [![Source Code](https://img.shields.io/badge/💻_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jay-soft-dev/STUDENT-NOTES-SAVE-WEB-)
+  * **Links:** [![Go Live Demo](https://img.shields.io/badge/🚀_Live_Demo-007ACC?style=flat-square&logo=netlify&logoColor=white)](https://portfolio-website-eta-seven-24.vercel.app/) [![Source Code](https://img.shields.io/badge/💻_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jay-soft-dev/STUDENT-NOTES-SAVE-WEB-)
 
 * 📌 **[Smart Challan Engine](https://github.com/jay-soft-dev/SMART-CHALLAN-ENGINE-)**  
   * **Description:** An automated system built to streamline digital challan management and processing logic.  
   * **Tech Stack:** `Software Logic` `Full Stack / Web`  
-  * **Links:** [![Go Live Demo](https://img.shields.io/badge/🚀_Live_Demo-007ACC?style=flat-square&logo=vercel&logoColor=white)](https://your-demo-url.com) [![Source Code](https://img.shields.io/badge/💻_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jay-soft-dev/SMART-CHALLAN-ENGINE-)
+  * **Links:** [![Go Live Demo](https://img.shields.io/badge/🚀_Live_Demo-007ACC?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-website-eta-seven-24.vercel.app/) [![Source Code](https://img.shields.io/badge/💻_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jay-soft-dev/SMART-CHALLAN-ENGINE-)
 
 * 📌 **[ATM System Application](https://github.com/jay-soft-dev/ATM)**  
   * **Description:** Core C/C++ logic implementation simulating Automated Teller Machine operations.  
