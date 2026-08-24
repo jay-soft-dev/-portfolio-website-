@@ -1,7 +1,14 @@
 <div align="center">
 
-# Hi there, I'm Jay Pawar 👋
-### BCA (Science) Student @ ASM CSIT | Full Stack Developer | Cybersecurity Enthusiast
+<!-- Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7dd3fc&height=200&section=header&text=Jay%20Pawar&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=Open%20To%20Internships%20%E2%80%A2%20Tata%20%26%20Deloitte%20Virtual%20Intern%20%E2%80%A2%20BCA%20Science&descSize=16&descAlignY=58&animation=fadeIn" width="100%"/>
+
+<br/>
+
+<!-- Typing SVG -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7dd3fc&center=true&vCenter=true&width=650&lines=Open+To+Internships+%F0%9F%9A%80;Full+Stack+Developer+%F0%9F%92%BB;Tata+Group+Virtual+Intern+%F0%9F%8F%A2;Deloitte+Virtual+Intern+%F0%9F%93%88;Software+Engineering+Intern+%E2%9A%A1;C%2B%2B+(STL)+%7C+DSA+%7C+MERN+Stack;AWS+Cloud+Certified+%E2%98%81%EF%B8%8F;Building+real+things%2C+one+line+at+a+time+%E2%9C%A8)](https://git.io/typing-svg)
+
+<br/><br/>
 
 ![](https://komarev.com/ghpvc/?username=jay-soft-dev&color=blueviolet&style=flat-square)
 ![](https://img.shields.io/github/followers/jay-soft-dev?label=Followers&style=flat-square&color=blue)
@@ -42,21 +49,25 @@
 
 ### 🚀 Featured Projects
 
-* 🔐 **[OTP Authentication System](https://github.com/jay-soft-dev/OTP-AUTH-SYSTEM-NUM-EMAIL)**
-  * **Description:** A secure full-stack authentication engine supporting real-time OTP delivery via SMS (Fast2SMS) and Email (Nodemailer) with JWT verification.
-  * **Tech Stack:** `Node.js` `Express.js` `JWT` `Axios` `Nodemailer`
+* 🔐 **[OTP Authentication System](https://github.com/jay-soft-dev/OTP-AUTH-SYSTEM-NUM-EMAIL)**  
+  * **Description:** A secure full-stack authentication engine supporting real-time OTP delivery via SMS (Fast2SMS) and Email (Nodemailer) with JWT verification.  
+  * **Tech Stack:** `Node.js` `Express.js` `JWT` `Axios` `Nodemailer`  
+  * **Links:** [![Go Live Demo](https://img.shields.io/badge/🚀_Live_Demo-007ACC?style=flat-square&logo=vercel&logoColor=white)](https://your-demo-url.com) [![Source Code](https://img.shields.io/badge/💻_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jay-soft-dev/OTP-AUTH-SYSTEM-NUM-EMAIL)
 
-* 📌 **[Student Notes Save Web](https://github.com/jay-soft-dev/STUDENT-NOTES-SAVE-WEB-)**
-  * **Description:** A web application designed for students to organize, store, and manage study notes efficiently.
-  * **Tech Stack:** `HTML` `CSS` `JavaScript`
+* 📌 **[Student Notes Save Web](https://github.com/jay-soft-dev/STUDENT-NOTES-SAVE-WEB-)**  
+  * **Description:** A web application designed for students to organize, store, and manage study notes efficiently.  
+  * **Tech Stack:** `HTML` `CSS` `JavaScript`  
+  * **Links:** [![Go Live Demo](https://img.shields.io/badge/🚀_Live_Demo-007ACC?style=flat-square&logo=netlify&logoColor=white)](https://your-demo-url.com) [![Source Code](https://img.shields.io/badge/💻_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jay-soft-dev/STUDENT-NOTES-SAVE-WEB-)
 
-* 📌 **[Smart Challan Engine](https://github.com/jay-soft-dev/SMART-CHALLAN-ENGINE-)**
-  * **Description:** An automated system built to streamline digital challan management and processing logic.
-  * **Tech Stack:** `Software Logic` `Full Stack / Web`
+* 📌 **[Smart Challan Engine](https://github.com/jay-soft-dev/SMART-CHALLAN-ENGINE-)**  
+  * **Description:** An automated system built to streamline digital challan management and processing logic.  
+  * **Tech Stack:** `Software Logic` `Full Stack / Web`  
+  * **Links:** [![Go Live Demo](https://img.shields.io/badge/🚀_Live_Demo-007ACC?style=flat-square&logo=vercel&logoColor=white)](https://your-demo-url.com) [![Source Code](https://img.shields.io/badge/💻_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jay-soft-dev/SMART-CHALLAN-ENGINE-)
 
-* 📌 **[ATM System Application](https://github.com/jay-soft-dev/ATM)**
-  * **Description:** Core C/C++ logic implementation simulating Automated Teller Machine operations.
-  * **Tech Stack:** `C` `C++`
+* 📌 **[ATM System Application](https://github.com/jay-soft-dev/ATM)**  
+  * **Description:** Core C/C++ logic implementation simulating Automated Teller Machine operations.  
+  * **Tech Stack:** `C` `C++`  
+  * **Links:** [![Source Code](https://img.shields.io/badge/💻_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jay-soft-dev/ATM)
 
 ---
 
