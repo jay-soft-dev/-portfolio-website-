@@ -78,9 +78,21 @@
             <div class="relative group">
                 <div class="absolute -inset-2 bg-gradient-to-r from-emerald-500 via-teal-500 to-blue-600 rounded-3xl blur-xl opacity-30 group-hover:opacity-75 transition duration-700"></div>
                 
-                <div class="relative w-64 h-64 sm:w-80 sm:h-80 rounded-2xl overflow-hidden border-2 border-slate-700/80 bg-slate-900 shadow-2xl transition-all duration-500 group-hover:scale-105 group-hover:-rotate-1 group-hover:border-emerald-400/60">
-                    <img src="pic.png.jpeg" alt="Jay Pawar" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0c]/60 via-transparent to-transparent opacity-80 group-hover:opacity-30 transition duration-500"></div>
+                <div class="relative w-64 h-64 sm:w-80 sm:h-80 rounded-2xl overflow-hidden border-2 border-slate-700/80 bg-slate-900 shadow-2xl transition-all duration-500 group-hover:scale-105 group-hover:-rotate-1 group-hover:border-emerald-400/60 flex items-center justify-center">
+                    
+                    <img src="pic.png.jpeg" 
+                         alt="Jay Pawar" 
+                         class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
+                         onerror="this.onerror=null; this.classList.add('hidden'); document.getElementById('profileFallback').classList.remove('hidden');">
+                    
+                    <div id="profileFallback" class="hidden w-full h-full bg-gradient-to-br from-slate-800 to-slate-950 flex flex-col items-center justify-center text-slate-400 space-y-2">
+                        <div class="w-24 h-24 rounded-full bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 text-4xl font-black">
+                            J
+                        </div>
+                        <span class="text-xs font-mono text-slate-500">profile.png missing</span>
+                    </div>
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0c]/60 via-transparent to-transparent opacity-80 group-hover:opacity-30 transition duration-500 pointer-events-none"></div>
                 </div>
             </div>
         </section>
@@ -136,7 +148,29 @@
             </div>
 
             <div class="grid md:grid-cols-2 gap-6">
-                <!-- Project 1: Notes Savior -->
+                <!-- Project 1: Resume Editor (ATS Builder) -->
+                <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between space-y-6 group hover:shadow-2xl hover:shadow-emerald-500/5">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-mono px-3 py-1 rounded-md bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                                React / Web App
+                            </span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-100 group-hover:text-emerald-400 transition-colors">
+                            RESUME EDITOR & ATS BUILDER
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            An interactive web application designed to format, build, and optimize ATS-friendly resumes dynamically with real-time live preview.
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-800/80">
+                        <a href="https://resume-editor-weld-three.vercel.app/" target="_blank" rel="noreferrer" class="text-sm font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1.5 transition-colors">
+                            Live Demo ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Notes Savior -->
                 <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-slate-700 transition-all duration-300 flex flex-col justify-between space-y-6 group hover:shadow-2xl hover:shadow-emerald-500/5">
                     <div class="space-y-4">
                         <div class="flex justify-between items-center">
@@ -153,12 +187,12 @@
                     </div>
                     <div class="flex items-center gap-4 pt-4 border-t border-slate-800/80">
                         <a href="https://student-notes-save-web.vercel.app/" target="_blank" rel="noreferrer" class="text-sm font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1.5 transition-colors">
-                            Live Application ↗
+                            Live Demo ↗
                         </a>
                     </div>
                 </div>
 
-                <!-- Project 2: Smart Challan Engine -->
+                <!-- Project 3: Smart Challan Engine -->
                 <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-slate-700 transition-all duration-300 flex flex-col justify-between space-y-6 group hover:shadow-2xl hover:shadow-emerald-500/5">
                     <div class="space-y-4">
                         <div class="flex justify-between items-center">
@@ -180,7 +214,7 @@
                     </div>
                 </div>
 
-                <!-- Project 3: Metro Route Checker -->
+                <!-- Project 4: Metro Route Checker -->
                 <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-slate-700 transition-all duration-300 flex flex-col justify-between space-y-6 group hover:shadow-2xl hover:shadow-emerald-500/5">
                     <div class="space-y-4">
                         <div class="flex justify-between items-center">
@@ -201,28 +235,6 @@
                         </a>
                     </div>
                 </div>
-
-                <!-- Project 4: ATM System -->
-                <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-slate-700 transition-all duration-300 flex flex-col justify-between space-y-6 group hover:shadow-2xl hover:shadow-emerald-500/5">
-                    <div class="space-y-4">
-                        <div class="flex justify-between items-center">
-                            <span class="text-xs font-mono px-3 py-1 rounded-md bg-purple-500/10 text-purple-400 border border-purple-500/20">
-                                Console Application
-                            </span>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-100 group-hover:text-emerald-400 transition-colors">
-                            ATM SIMULATOR
-                        </h3>
-                        <p class="text-slate-400 text-sm leading-relaxed">
-                            A core banking simulation application handling PIN verification, cash withdrawals, balance inquiries, and account updates.
-                        </p>
-                    </div>
-                    <div class="flex items-center gap-4 pt-4 border-t border-slate-800/80">
-                        <a href="https://github.com/jay-soft-dev/ATM" target="_blank" rel="noreferrer" class="text-sm font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1.5 transition-colors">
-                            View Source Code ↗
-                        </a>
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -235,7 +247,7 @@
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                <!-- 1. TATA GenAI Data Analytics -->
+                <!-- 1. Deloitte Data Analytics -->
                 <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between space-y-4 group">
                     <div class="space-y-3">
                         <div class="flex justify-between items-center">
@@ -363,7 +375,6 @@
                 <p class="text-slate-400 text-sm">Explore my open-source work, professional networks, and freelance accounts.</p>
             </div>
 
-            <!-- Profile Cards Grid (3 Columns) -->
             <div class="grid sm:grid-cols-3 gap-6">
                 
                 <!-- Card 1: GitHub -->
@@ -459,7 +470,6 @@
             document.getElementById('modalTitle').innerText = title;
             const modalBody = document.getElementById('modalBody');
             
-            // Try loading image directly
             const imgPath = baseFileName + '.png';
             const pdfPath = baseFileName + '.pdf';
 
